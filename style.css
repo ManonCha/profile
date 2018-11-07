@@ -1,0 +1,106 @@
+body {
+  font-family: 'Raleway', serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: #f2f2f2;
+  color: rgb(50 50 50);
+}
+
+h1 {
+  font-weight: 900;
+  color: #6D4C41;
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb (75 75 75);
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%}
+
+.text-center {
+  text-align: center
+}
+
+#restaurants-section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+#restaurants-section p {
+  font-size: 0.9em;
+}
+
+#restaurants-section td {
+  padding: 5px;
+  text-align: left;
+}
+
+#restaurants-section h3 {
+  color: rgb(100 100 100);
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.list-inline a {
+  color: rgb(150 150 150);
+  text-decoration: none;
+}
+
+.list-inline a:hover {
+  color: rgb(100 100 100);
+}
+
+.btn-white {
+    background-color: white;
+    color: rgb(100 100 100);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: rgb(150 150 150);
+    text-decoration: none;
+    color: rgb(150 150 150);
+}
+
+.btn-white:hover {
+    background-color: white;
+    color: rgb(100 100 100);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: rgb(100 100 100);
+    text-decoration: none;
+    color: rgb(100 100 100);
+}
+
+#link {
+  color: rgb(150 150 150);
+  text-decoration: none;
+}
+
+#link:hover {
+  color: rgb(100 100 100)
+}
+
